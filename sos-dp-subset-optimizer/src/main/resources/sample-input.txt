@@ -1,0 +1,12 @@
+# Sample input for SOS-DP-Subset-Optimizer
+# Element i of the set is bit i of a mask (element 0 = least significant bit).
+elements: 5, 3, 8, 2, 7, 1
+
+# Query formats: decimal mask, binary (0b...), or element indices {i,j,k}
+queries:
+0b101101
+{0,1,2}
+63
+42
+21
+0
